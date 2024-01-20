@@ -21,6 +21,9 @@ const Contests = () => {
     }
 
     useEffect(() => {
+      // fetch(`https://cp-api-arnoob16.vercel.app/${value}`)
+      // https://codeforces.com/api/{methodName}
+      // fetch(`https://codeforces.com/api/${value}`)
       fetch(`https://kontests.net/api/v1/${value}`)
         .then((response) => response.json())
         .then((data) => {

@@ -12,14 +12,14 @@ const Footer = () => {
               {/* <p>Designed & Developed by Team StarBugs</p> */}
             </div>
           </div>
-          <div className="col-lg-3">
+          {/* <div className="col-lg-3">
             <div className="footer-widget">
               <h4>Team</h4>
               <p>Sunil Gupta</p>
               <p>Ankit Mishra</p>
               <p>Avinash Chaudhary</p>
             </div>
-          </div>
+          </div> */}
           <div className="col-lg-3">
             <div className="footer-widget">
               <h4>Useful Links</h4>
